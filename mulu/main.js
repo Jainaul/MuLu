@@ -29,6 +29,7 @@ var pagesite = {};
 pagesite['/basis.css'] = mypage.basiscss;
 pagesite['/config.js'] = mypage.configjs;
 pagesite['/title.js'] = mypage.titlejs;
+pagesite['/appinfo.js'] = mypage.appinfojs;
 pagesite['/'] = mypage.homepage;
 
 pageserver(geturl)
