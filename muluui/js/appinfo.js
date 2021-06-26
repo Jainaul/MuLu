@@ -11,4 +11,3 @@ function purewriter(){
 	var filename = re.exec(tmp);
 	return [appname,offsite,appintro,appversion,appversion2,suffix,filename[1]];
 }
-exports.purewriter = purewriter;
